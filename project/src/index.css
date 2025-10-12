@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for AI explanation formatting */
+.ai-explanation {
+  line-height: 1.7;
+}
+
+.ai-explanation h2 {
+  @apply text-lg font-semibold text-gray-900 mt-6 mb-3 first:mt-0 border-b border-gray-200 pb-2;
+}
+
+.ai-explanation h3 {
+  @apply text-base font-semibold text-gray-800 mt-4 mb-2;
+}
+
+.ai-explanation ul {
+  @apply ml-4 space-y-1;
+}
+
+.ai-explanation li {
+  @apply text-gray-700 leading-relaxed;
+}
+
+.ai-explanation code {
+  @apply bg-gray-100 text-gray-800 px-1 py-0.5 rounded text-sm font-mono;
+}
+
+.ai-explanation pre {
+  @apply bg-gray-50 border border-gray-200 rounded-lg p-4 my-3 font-mono text-sm overflow-x-auto;
+}
+
+.ai-explanation blockquote {
+  @apply border-l-4 border-purple-200 pl-4 italic text-gray-600 my-3;
+}
+
+.ai-explanation strong {
+  @apply font-semibold text-gray-800;
+}
+
+.ai-explanation p {
+  @apply mb-3 text-gray-700 leading-relaxed;
+}
